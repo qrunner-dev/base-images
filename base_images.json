@@ -1,0 +1,14 @@
+[
+  {
+    "name": "node:16.2.0",
+    "registryUrl": "docker.io/qrunner/node:16.2.0"
+  },
+  {
+    "name": "node:15.14.0",
+    "registryUrl": "docker.io/qrunner/node:15.14.0"
+  },
+  {
+    "name": "golang:1.16.4",
+    "registryUrl": "docker.io/qrunner/golang:1.16.4"
+  }
+]
