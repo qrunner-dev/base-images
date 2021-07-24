@@ -9,4 +9,4 @@ GIT_BRANCH ?=master
 push:
 	docker build -t qrunner/$(IMAGE_NAME):$(IMAGE_VERSION) -t qrunner/$(IMAGE_NAME):latest \
 	 -f $(IMAGE_NAME)/$(IMAGE_NAME):$(IMAGE_VERSION).Dockerfile github.com/qrunner-dev/base-images#$(GIT_BRANCH)
-	docker push qrunner/$(IMAGE_NAME)
+	docker push --all-tags qrunner/$(IMAGE_NAME)
