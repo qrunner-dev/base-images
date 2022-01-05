@@ -1,18 +1,22 @@
 [
   {
     "name": "node:16.2.0",
-    "registryUrl": "docker.io/qrunner/node:16.2.0"
+    "registryUrl": "docker.io/qrunner/node:16.2.0",
+    "platform": "node"
   },
   {
     "name": "node:15.14.0",
-    "registryUrl": "docker.io/qrunner/node:15.14.0"
+    "registryUrl": "docker.io/qrunner/node:15.14.0",
+    "platform": "node"
   },
   {
     "name": "golang:1.16.4",
-    "registryUrl": "docker.io/qrunner/golang:1.16.4"
+    "registryUrl": "docker.io/qrunner/golang:1.16.4",
+    "platform": "go"
   },
   {
     "name": "golang:1.16.6",
-    "registryUrl": "docker.io/qrunner/golang:1.16.6"
+    "registryUrl": "docker.io/qrunner/golang:1.16.6",
+    "platform": "go"
   }
 ]
